@@ -1,0 +1,37 @@
+{
+    "name": "mmi/mmi-cms-widgets",
+    "description": "Commonly used CMS widgets written for MMi CMS",
+    "keywords": ["cms", "widgets", "mmi"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mariusz Miłejko",
+            "email": "mariusz@milejko.pl"
+        },
+        {
+            "name": "Bartłomiej Wołos",
+            "email": "funfel@onet.pl"
+        },
+        {
+            "name": "Maciej Pawłowski",
+            "email": "mac@macu.eu"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "mmi/mmi-cms": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CommonWidgets\\": "src/CommonWidgets",
+            "CommonWidgetsAdmin\\": "src/CommonWidgetsAdmin",
+            "": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
